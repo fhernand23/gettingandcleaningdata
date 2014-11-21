@@ -1,11 +1,10 @@
 # CodeBook
 
-## Raw data
+### Raw data
 
 Raw data come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 
 For each record it is provided:
-======================================
 
 * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 * Triaxial Angular velocity from the gyroscope. 
@@ -53,7 +52,7 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
-## Processed data
+### Processed data
 
 * Subject is the same as raw data (1:30)
 * Activity is the description of raw data (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
